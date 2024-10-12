@@ -1,6 +1,6 @@
     cd -p thesis_project/exploring_obitools && cd $_
 
-# installing conda:
+# Installing conda:
     mkdir tools && cd $_
     wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
     chmod +x Anaconda3-*.sh
@@ -9,7 +9,7 @@
     source ~/.bashrc # restarting source to apply changes
     conda --version # verifying installation
 
-# installing obitools in a dedicated environment:
+# Installing obitools in a dedicated environment:
     
     conda create --name obi python=2.7 -y
     conda activate obi
@@ -23,7 +23,7 @@
     obigrep -h # just to verify installation
 
 
-# obtaining sample_data:
+# Obtaining sample_data:
     cd .. && ls
     
     mkdir data && cd $_
@@ -76,14 +76,13 @@
     
     head -n 3 ../wolf.ali.assigned.uniq.fasta
 
-    # in the header, merged_sample and count keys are added. 
-    # To keep only this information in the sequence header:
+    # In the header, merged_sample and count keys are added; To keep only this information in the sequence header:
 
     obiannotate -k count -k merged_sample ../wolf.ali.assigned.uniq.fasta > ../wolf_annotated_uniq.fasta
     
     head -n 10 ../wolf_annotated_uniq.fasta
 
-# I noticed broken sequence here, which I will treat (...) later !!
+###### I noticed broken sequence here, which I will treat later (if required) !!
 
 # Denoising the sequene dataset:
 
@@ -107,17 +106,20 @@
     obigrep -l 80 -p 'count>=10' ../wolf_annotated_uniq.fasta > ../wolf_annotated_uniq_trimmed.fasta
 
 ### Cleaning for PCR/sequencing errors:
-###### !! Learn more about *obiclean* program [from here](https://pythonhosted.org/OBITools/scripts/obiclean.html)
+###### Learn more about *obiclean* program [from here](https://pythonhosted.org/OBITools/scripts/obiclean.html)
 
     obiclean -s merged_sample -r 0.05 -H ../wolf_annotated_uniq_trimmed.fasta > ../wolf_cleaned.fasta
-##### to figure out what is -s merged_sample parameter and -r 0.05 (for later) 
+
+##### I need to figure out what is -s merged_sample parameter and -r 0.05 (for later) 
 
 # Taxonomic assignment:
 
 ### Building reference database:
-    # In tutorial, they have used ecoPCR to simulate a PCR and extract all sequences from EMBL that may be amplified in silico by the selected primers !!!
+
+    # In tutorial, they have used ecoPCR to simulate a PCR and extract all sequences from EMBL\
+     that may be amplified in silico by the selected primers !!!
     
-##### Here is what they have done for reference database creation (copied from the tutorial):
+#### Here is what they have done for reference database creation (copied from the tutorial):
     
 ##### The full list of steps for building this reference database would then be:
 
@@ -136,8 +138,7 @@
     ecotag -d embl_r117 -R db_v05_r117.fasta ../wolf_cleaned.fasta > ../wolf_cleaned_tagged.fasta
     head -n 2 ../wolf_cleaned_tagged.fasta
 
-    # Several new keys&values are added here:
-    - best match, best identity, taxid and scientific name
+    # Several new keys&values added here are: best match, best identity, taxid and scientific name
 
 ### Removing unrequired attributes:
       
@@ -149,6 +150,7 @@
         --delete-tag=order ../wolf_cleaned_tagged.fasta > ../wolf_cleaned_tagged_annotated.fasta
 
 #### Checking the first sequence:
+
     head -n 4 ../wolf_cleaned_tagged_annotated.fasta
 
     obisort -k count -r ../wolf_cleaned_tagged_annotated.fasta > \
