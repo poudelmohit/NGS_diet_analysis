@@ -10,16 +10,7 @@
     conda --version # verifying installation
 
 # installing obitools in a dedicated environment:
-    conda create --name obitools_env python=2.7 -y
-    conda activate obitools_env
-    conda install bioconda::obitools
-
-    wget https://pythonhosted.org/OBITools/_downloads/get-obitools.py
-    chmod +x *.py
     
-    python get-obitools.py
-
-
     conda create --name obi python=2.7 -y
     conda activate obi
 
@@ -33,7 +24,7 @@
 
 
 # obtaining sample_data:
-    cd ../.. && ls
+    cd .. && ls
     
     mkdir data && cd $_
     wget https://pythonhosted.org/OBITools/_downloads/wolf_tutorial.zip
@@ -49,7 +40,8 @@
 
 # Merging pair end reads:
     illuminapairedend --score-min=40 -r wolf_R.fastq wolf_F.fastq > ../wolf.fastq
-    # Here, if the alignment score is below 40, the sequences are not aligned but concatenated; and in the sequence headers, mode is set to joined, instead of alignment
+    # Here, if the alignment score is below 40, the sequences are not aligned but concatenated; 
+    and in the sequence headers, mode is set to joined, instead of alignment
 
 # Removing unaligned sequence records:
     obigrep -p 'mode!="joined"' ../wolf.fastq > ../wolf.ali.fastq
@@ -59,7 +51,7 @@
     obihead --without-progress-bar -n 1 ../wolf.ali.fastq
     # using --without-progress-bar gives clearer view
 
-# Assigning each sequence record tot eh corresponding sample/marker combination:
+# Assigning each sequence record to the corresponding sample/marker combination:
    
     ngsfilter --h
     ## see more at: [ngsfilter](https://pythonhosted.org/OBITools/scripts/ngsfilter.html)
@@ -70,7 +62,9 @@
     
     # -u creates a file containing all sequence records that are not assigned to markers or tags
     
-    # wolf.ali.assigned.fastq is the new output file containg all sequences that are assigned to a sample/marker combination; also in the header it contains information about sample,primers, tags,etc. The sequences has barcode in it, but not primers and tags. Primers and tags are already removed by ngsfilter !!
+    # wolf.ali.assigned.fastq is the new output file containg all sequences that are assigned to a sample/marker combination; 
+    # Also in the header it contains information about sample,primers, tags,etc. 
+    # The sequences has barcode in it, but not primers and tags. Primers and tags are already removed by ngsfilter !!
 
     head -n 4 ../wolf.ali.assigned.fastq
     
@@ -84,6 +78,7 @@
 
     # in the header, merged_sample and count keys are added. 
     # To keep only this information in the sequence header:
+
     obiannotate -k count -k merged_sample ../wolf.ali.assigned.uniq.fasta > ../wolf_annotated_uniq.fasta
     
     head -n 10 ../wolf_annotated_uniq.fasta
@@ -94,7 +89,7 @@
 
     # The plan here is to discard rare sequences that likely come out of PCR and/or sequencing errors.
 
-### getting count statistics:
+### Getting count statistics:
     obistat -c count ../wolf_annotated_uniq.fasta | sort -nk1 > ../count_statistics.txt
     head -n 10 ../count_statistics.txt
 
@@ -115,7 +110,8 @@
     # !! Learn more about *obiclean* program [from here](https://pythonhosted.org/OBITools/scripts/obiclean.html)
 
     obiclean -s merged_sample -r 0.05 -H ../wolf_annotated_uniq_trimmed.fasta > ../wolf_cleaned.fasta
-ls ..
+
+
 
 
     
