@@ -53,9 +53,9 @@
 
 # Assigning each sequence record to the corresponding sample/marker combination:
    
+    
+##### see more at: [ngsfilter](https://pythonhosted.org/OBITools/scripts/ngsfilter.html)
     ngsfilter --h
-    ## see more at: [ngsfilter](https://pythonhosted.org/OBITools/scripts/ngsfilter.html)
-
     ngsfilter -t wolf_diet_ngsfilter.txt -u ../unidentified.fastq ../wolf.ali.fastq > ../wolf.ali.assigned.fastq
 
     # here, -t is to denote sample containing tags and primers record
@@ -107,12 +107,57 @@
     obigrep -l 80 -p 'count>=10' ../wolf_annotated_uniq.fasta > ../wolf_annotated_uniq_trimmed.fasta
 
 ### Cleaning for PCR/sequencing errors:
-    # !! Learn more about *obiclean* program [from here](https://pythonhosted.org/OBITools/scripts/obiclean.html)
+###### !! Learn more about *obiclean* program [from here](https://pythonhosted.org/OBITools/scripts/obiclean.html)
 
     obiclean -s merged_sample -r 0.05 -H ../wolf_annotated_uniq_trimmed.fasta > ../wolf_cleaned.fasta
+##### to figure out what is -s merged_sample parameter and -r 0.05 (for later) 
 
+# Taxonomic assignment:
 
-
-
+### Building reference database:
+    # In tutorial, they have used ecoPCR to simulate a PCR and extract all sequences from EMBL that may be amplified in silico by the selected primers !!!
     
+##### Here is what they have done for reference database creation (copied from the tutorial):
+    
+##### The full list of steps for building this reference database would then be:
+
+- Download the whole set of EMBL sequences ([available here](ftp://ftp.ebi.ac.uk/pub/databases/embl/release/))
+
+- Download the NCBI taxonomy ([available here](ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz))
+
+- Format them into the [ecoPCR](https://pythonhosted.org/OBITools/scripts/ecoPCR.html) format (see [obiconvert](https://pythonhosted.org/OBITools/scripts/obiconvert.html) for how you can produce ecoPCR compatible files)
+
+- Use ecoPCR to simulate amplification and build a reference database based on putatively amplified barcodes together with their recorded taxonomic information
+    
+- Complete code to download similar ref database is available [here](https://pythonhosted.org/OBITools/wolves.html#build-a-reference-database)
+
+## Assigning each sequence to a taxon:
+
+    ecotag -d embl_r117 -R db_v05_r117.fasta ../wolf_cleaned.fasta > ../wolf_cleaned_tagged.fasta
+    head -n 2 ../wolf_cleaned_tagged.fasta
+
+    # Several new keys&values are added here:
+    - best match, best identity, taxid and scientific name
+
+### Removing unrequired attributes:
+      
+    obiannotate  --delete-tag=scientific_name_by_db --delete-tag=obiclean_samplecount \
+        --delete-tag=obiclean_count --delete-tag=obiclean_singletoncount \
+        --delete-tag=obiclean_cluster --delete-tag=obiclean_internalcount \
+        --delete-tag=obiclean_head --delete-tag=taxid_by_db --delete-tag=obiclean_headcount \
+        --delete-tag=id_status --delete-tag=rank_by_db --delete-tag=order_name \
+        --delete-tag=order ../wolf_cleaned_tagged.fasta > ../wolf_cleaned_tagged_annotated.fasta
+
+#### Checking the first sequence:
+    head -n 4 ../wolf_cleaned_tagged_annotated.fasta
+
+    obisort -k count -r ../wolf_cleaned_tagged_annotated.fasta > \
+    ../wolf_cleaned_tagged_annotated_sorted.fasta
+
+    head -n 3 ../wolf_cleaned_tagged_annotated_sorted.fasta
+
+# Saving result to a clean tsv file:
+    mkdir ../../results
+    obitab -o ../wolf_cleaned_*_sorted.fasta > ../../results/wolf_diets.tab
+    cd ../../results && ls
     
