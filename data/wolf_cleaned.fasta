@@ -1,0 +1,78 @@
+>HELIUM_000100422_612GNAAXX:7:22:8540:14708#0/1_CONS_SUB_SUB_CMP merged_sample={'29a_F260619': 4697, '15a_F730814': 7638}; obiclean_count={'29a_F260619': 5438, '15a_F730814': 8642}; obiclean_head=True; obiclean_cluster={'29a_F260619': 'HELIUM_000100422_612GNAAXX:7:22:8540:14708#0/1_CONS_SUB_SUB_CMP', '15a_F730814': 'HELIUM_000100422_612GNAAXX:7:22:8540:14708#0/1_CONS_SUB_SUB_CMP'}; count=12335; obiclean_internalcount=0; obiclean_status={'29a_F260619': 'h', '15a_F730814': 'h'}; obiclean_samplecount=2; obiclean_headcount=2; obiclean_singletoncount=0; 
+ttagccctaaacacaagtaattaatataacaaaattattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:57:18459:16145#0/1_CONS_SUB_SUB merged_sample={'26a_F040644': 10490}; obiclean_count={'26a_F040644': 11895}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:57:18459:16145#0/1_CONS_SUB_SUB'}; count=10490; obiclean_internalcount=0; obiclean_status={'26a_F040644': 'h'}; obiclean_samplecount=1; obiclean_headcount=1; obiclean_singletoncount=0; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagagtactactagcaaca
+gcctgaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:89:10281:5930#0/1_CONS_SUB_SUB merged_sample={'29a_F260619': 272}; obiclean_count={'29a_F260619': 272}; obiclean_head=True; obiclean_cluster={'29a_F260619': 'HELIUM_000100422_612GNAAXX:7:89:10281:5930#0/1_CONS_SUB_SUB'}; count=272; obiclean_internalcount=0; obiclean_status={'29a_F260619': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacacaaataattacacaaacaaaattgttcaccagagtactagcggcaac
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:29:15520:18035#0/1_CONS_SUB_SUB_CMP merged_sample={'29a_F260619': 325}; obiclean_count={'29a_F260619': 325}; obiclean_head=True; obiclean_cluster={'29a_F260619': 'HELIUM_000100422_612GNAAXX:7:29:15520:18035#0/1_CONS_SUB_SUB_CMP'}; count=325; obiclean_internalcount=0; obiclean_status={'29a_F260619': 'h'}; obiclean_samplecount=1; obiclean_headcount=1; obiclean_singletoncount=0; 
+ttagccctaaacacaagtaattattataacaaaattattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:6:9274:14951#0/1_CONS_SUB_SUB_CMP merged_sample={'13a_F730603': 7307}; obiclean_count={'13a_F730603': 7684}; obiclean_head=True; obiclean_cluster={'13a_F730603': 'HELIUM_000100422_612GNAAXX:7:6:9274:14951#0/1_CONS_SUB_SUB_CMP'}; count=7307; obiclean_internalcount=0; obiclean_status={'13a_F730603': 'h'}; obiclean_samplecount=1; obiclean_headcount=1; obiclean_singletoncount=0; 
+ctagccttaaacacaaatagttatgcaaacaaaactattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:13:6954:13039#0/1_CONS_SUB_SUB merged_sample={'26a_F040644': 88}; obiclean_count={'26a_F040644': 88}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:13:6954:13039#0/1_CONS_SUB_SUB'}; count=88; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:98:10056:18748#0/1_CONS_SUB_SUB_CMP merged_sample={'26a_F040644': 16}; obiclean_count={'26a_F040644': 16}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:98:10056:18748#0/1_CONS_SUB_SUB_CMP'}; count=16; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagagtactactagcaata
+gcttaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:54:9724:16321#0/1_CONS_SUB_SUB_CMP merged_sample={'26a_F040644': 26}; obiclean_count={'26a_F040644': 26}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:54:9724:16321#0/1_CONS_SUB_SUB_CMP'}; count=26; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacatagataattttacaacaaaataattcgccagagtactactagcaaca
+gcctgaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:78:2653:17923#0/1_CONS_SUB_SUB_CMP merged_sample={'29a_F260619': 89, '26a_F040644': 12}; obiclean_count={'29a_F260619': 89, '26a_F040644': 12}; obiclean_head=True; obiclean_cluster={'29a_F260619': 'HELIUM_000100422_612GNAAXX:7:78:2653:17923#0/1_CONS_SUB_SUB_CMP', '26a_F040644': 'HELIUM_000100422_612GNAAXX:7:78:2653:17923#0/1_CONS_SUB_SUB_CMP'}; count=101; obiclean_internalcount=0; obiclean_status={'29a_F260619': 's', '26a_F040644': 's'}; obiclean_samplecount=2; obiclean_headcount=0; obiclean_singletoncount=2; 
+ttagccctaaacataagctattccataacaaaataattcgccagagaactactagcaaca
+gattaaacctcaaaggacttggcagtgctttatacccct
+>HELIUM_000100422_612GNAAXX:7:45:2528:20273#0/1_CONS_SUB_SUB_CMP merged_sample={'26a_F040644': 12}; obiclean_count={'26a_F040644': 12}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:45:2528:20273#0/1_CONS_SUB_SUB_CMP'}; count=12; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacataaacagtcaataaacaaggatgttcgccagagtactactagcaatg
+gcctaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:52:18333:13881#0/1_CONS_SUB_SUB_CMP merged_sample={'13a_F730603': 21}; obiclean_count={'13a_F730603': 21}; obiclean_head=True; obiclean_cluster={'13a_F730603': 'HELIUM_000100422_612GNAAXX:7:52:18333:13881#0/1_CONS_SUB_SUB_CMP'}; count=21; obiclean_internalcount=0; obiclean_status={'13a_F730603': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ctagccttaaacacaaatagttatgcaaacaaaactattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:78:15278:3285#0/1_CONS_SUB_SUB merged_sample={'29a_F260619': 1, '15a_F730814': 5, '26a_F040644': 352, '13a_F730603': 14}; obiclean_count={'29a_F260619': 1, '15a_F730814': 5, '26a_F040644': 352, '13a_F730603': 14}; obiclean_head=True; obiclean_cluster={'29a_F260619': 'HELIUM_000100422_612GNAAXX:7:78:15278:3285#0/1_CONS_SUB_SUB', '15a_F730814': 'HELIUM_000100422_612GNAAXX:7:78:15278:3285#0/1_CONS_SUB_SUB', '26a_F040644': 'HELIUM_000100422_612GNAAXX:7:78:15278:3285#0/1_CONS_SUB_SUB', '13a_F730603': 'HELIUM_000100422_612GNAAXX:7:78:15278:3285#0/1_CONS_SUB_SUB'}; count=372; obiclean_internalcount=0; obiclean_status={'29a_F260619': 's', '15a_F730814': 's', '26a_F040644': 's', '13a_F730603': 's'}; obiclean_samplecount=4; obiclean_headcount=0; obiclean_singletoncount=4; 
+ttagccctaaacatagataattttacaacaaaataattcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:14:17532:5546#0/1_CONS_SUB_SUB_CMP merged_sample={'26a_F040644': 13}; obiclean_count={'26a_F040644': 13}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:14:17532:5546#0/1_CONS_SUB_SUB_CMP'}; count=13; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacataaatcagtctataacaaaataattcgccagagaactactagcaaca
+gcttaaaactcaaaggacgtggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:111:11186:2142#0/1_CONS_SUB_SUB merged_sample={'29a_F260619': 15, '13a_F730603': 1}; obiclean_count={'29a_F260619': 15, '13a_F730603': 1}; obiclean_head=True; obiclean_cluster={'29a_F260619': 'HELIUM_000100422_612GNAAXX:7:111:11186:2142#0/1_CONS_SUB_SUB', '13a_F730603': 'HELIUM_000100422_612GNAAXX:7:111:11186:2142#0/1_CONS_SUB_SUB'}; count=16; obiclean_internalcount=0; obiclean_status={'29a_F260619': 's', '13a_F730603': 's'}; obiclean_samplecount=2; obiclean_headcount=0; obiclean_singletoncount=2; 
+ttagccctaaacctcaacagttaaatcaacaaaactgctcgccagaacactacgagccac
+agcttaaaactcaaaggacctggcggtgcttcatatccct
+>HELIUM_000100422_612GNAAXX:7:95:12207:16717#0/1_CONS_SUB_SUB_CMP merged_sample={'26a_F040644': 71}; obiclean_count={'26a_F040644': 71}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:95:12207:16717#0/1_CONS_SUB_SUB_CMP'}; count=71; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacatagataattttacaacaaaataattcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:10:6016:12365#0/1_CONS_SUB_SUB merged_sample={'15a_F730814': 4, '13a_F730603': 9}; obiclean_count={'15a_F730814': 4, '13a_F730603': 9}; obiclean_head=True; obiclean_cluster={'15a_F730814': 'HELIUM_000100422_612GNAAXX:7:10:6016:12365#0/1_CONS_SUB_SUB', '13a_F730603': 'HELIUM_000100422_612GNAAXX:7:10:6016:12365#0/1_CONS_SUB_SUB'}; count=13; obiclean_internalcount=0; obiclean_status={'15a_F730814': 's', '13a_F730603': 's'}; obiclean_samplecount=2; obiclean_headcount=0; obiclean_singletoncount=2; 
+ttagccctaaacatagataattttacaacaaaataattcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:55:3707:4158#0/1_CONS_SUB_SUB_CMP merged_sample={'26a_F040644': 45}; obiclean_count={'26a_F040644': 45}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:55:3707:4158#0/1_CONS_SUB_SUB_CMP'}; count=45; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:46:19314:17760#0/1_CONS_SUB_SUB merged_sample={'29a_F260619': 38}; obiclean_count={'29a_F260619': 38}; obiclean_head=True; obiclean_cluster={'29a_F260619': 'HELIUM_000100422_612GNAAXX:7:46:19314:17760#0/1_CONS_SUB_SUB'}; count=38; obiclean_internalcount=0; obiclean_status={'29a_F260619': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacacaagtaattaatataacaaaattgttcaccagagtactagcggcaac
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:81:16334:4645#0/1_CONS_SUB_SUB_CMP merged_sample={'29a_F260619': 12}; obiclean_count={'29a_F260619': 12}; obiclean_head=True; obiclean_cluster={'29a_F260619': 'HELIUM_000100422_612GNAAXX:7:81:16334:4645#0/1_CONS_SUB_SUB_CMP'}; count=12; obiclean_internalcount=0; obiclean_status={'29a_F260619': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacataagctattccataacaaaattattcgccagagtactaccggcaata
+gcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:66:13553:6137#0/1_CONS_SUB_SUB_CMP merged_sample={'13a_F730603': 17}; obiclean_count={'13a_F730603': 17}; obiclean_head=True; obiclean_cluster={'13a_F730603': 'HELIUM_000100422_612GNAAXX:7:66:13553:6137#0/1_CONS_SUB_SUB_CMP'}; count=17; obiclean_internalcount=0; obiclean_status={'13a_F730603': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ctagccttaaacacaaatagttatgcaaacaaaactattcgccagagtactaccggcaac
+agcccaaaactcaaaggacttggcggtgcttcacaccctt
+>HELIUM_000100422_612GNAAXX:7:103:5003:2451#0/1_CONS_SUB_SUB_CMP merged_sample={'26a_F040644': 22}; obiclean_count={'26a_F040644': 22}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:103:5003:2451#0/1_CONS_SUB_SUB_CMP'}; count=22; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagagtactactagcaata
+gcttaaaactcaaaggacttggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:30:17580:1988#0/1_CONS_SUB_SUB merged_sample={'13a_F730603': 16}; obiclean_count={'13a_F730603': 16}; obiclean_head=True; obiclean_cluster={'13a_F730603': 'HELIUM_000100422_612GNAAXX:7:30:17580:1988#0/1_CONS_SUB_SUB'}; count=16; obiclean_internalcount=0; obiclean_status={'13a_F730603': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacacaaataattatataaacaaaattattcgccagagtactaccggcaac
+agcccaaaactcaaaggacttggcggtgcttcacaccctt
+>HELIUM_000100422_612GNAAXX:7:71:9435:20170#0/1_CONS_SUB_SUB merged_sample={'26a_F040644': 10}; obiclean_count={'26a_F040644': 10}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:71:9435:20170#0/1_CONS_SUB_SUB'}; count=10; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacatagataattttacaacaaaataattcgccagaggactactagcaaca
+gcctgaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:20:19056:14068#0/1_CONS_SUB_SUB_CMP merged_sample={'29a_F260619': 19}; obiclean_count={'29a_F260619': 19}; obiclean_head=True; obiclean_cluster={'29a_F260619': 'HELIUM_000100422_612GNAAXX:7:20:19056:14068#0/1_CONS_SUB_SUB_CMP'}; count=19; obiclean_internalcount=0; obiclean_status={'29a_F260619': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacacaaataattacacaaacaaaattattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:22:6019:11240#0/1_CONS_SUB_SUB_CMP merged_sample={'26a_F040644': 10}; obiclean_count={'26a_F040644': 10}; obiclean_head=True; obiclean_cluster={'26a_F040644': 'HELIUM_000100422_612GNAAXX:7:22:6019:11240#0/1_CONS_SUB_SUB_CMP'}; count=10; obiclean_internalcount=0; obiclean_status={'26a_F040644': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagagtactactagcaatg
+gcctaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:34:14050:19312#0/1_CONS_SUB_SUB_CMP merged_sample={'13a_F730603': 16}; obiclean_count={'13a_F730603': 16}; obiclean_head=True; obiclean_cluster={'13a_F730603': 'HELIUM_000100422_612GNAAXX:7:34:14050:19312#0/1_CONS_SUB_SUB_CMP'}; count=16; obiclean_internalcount=0; obiclean_status={'13a_F730603': 's'}; obiclean_samplecount=1; obiclean_headcount=0; obiclean_singletoncount=1; 
+ctagccttaaacacaaatagttatgcaaacaaaactattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgcttcacaccctt

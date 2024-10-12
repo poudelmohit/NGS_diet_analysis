@@ -1,0 +1,78 @@
+>HELIUM_000100422_612GNAAXX:7:22:8540:14708#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 1}; species_name=Capreolus capreolus; family=9850; scientific_name=Capreolus capreolus; rank=species; obiclean_status={'29a_F260619': 'h', '15a_F730814': 'h'}; best_identity={'db_v05_r117': 1.0}; genus_name=Capreolus; species=9858; count=12335; merged_sample={'29a_F260619': 4697, '15a_F730814': 7638}; family_name=Cervidae; best_match={'db_v05_r117': 'AJ885202'}; taxid=9858; species_list={'db_v05_r117': ['Capreolus capreolus']}; genus=9857; 
+ttagccctaaacacaagtaattaatataacaaaattattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:57:18459:16145#0/1_CONS_SUB_SUB match_count={'db_v05_r117': 2}; species_name=None; family=55153; scientific_name=Marmota; rank=genus; obiclean_status={'26a_F040644': 'h'}; best_identity={'db_v05_r117': 0.9797979797979798}; genus_name=Marmota; species=None; count=10490; merged_sample={'26a_F040644': 10490}; family_name=Sciuridae; best_match={'db_v05_r117': 'AY227529'}; taxid=9992; species_list={'db_v05_r117': ['Marmota monax', 'Marmota himalayana']}; genus=9992; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagagtactactagcaaca
+gcctgaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:89:10281:5930#0/1_CONS_SUB_SUB match_count={'db_v05_r117': 81}; species_name=None; family=None; scientific_name=Pecora; rank=infraorder; obiclean_status={'29a_F260619': 's'}; best_identity={'db_v05_r117': 0.9405940594059405}; genus_name=None; species=None; count=272; merged_sample={'29a_F260619': 272}; family_name=None; best_match={'db_v05_r117': 'AF154263'}; taxid=35500; species_list={'db_v05_r117': []}; genus=None; 
+ttagccctaaacacaaataattacacaaacaaaattgttcaccagagtactagcggcaac
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:29:15520:18035#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 1}; species_name=Capreolus capreolus; family=9850; scientific_name=Capreolus capreolus; rank=species; obiclean_status={'29a_F260619': 'h'}; best_identity={'db_v05_r117': 1.0}; genus_name=Capreolus; species=9858; count=325; merged_sample={'29a_F260619': 325}; family_name=Cervidae; best_match={'db_v05_r117': 'AJ972683'}; taxid=9858; species_list={'db_v05_r117': ['Capreolus capreolus']}; genus=9857; 
+ttagccctaaacacaagtaattattataacaaaattattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:6:9274:14951#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 1}; species_name=Cervus elaphus; family=9850; scientific_name=Cervus elaphus; rank=species; obiclean_status={'13a_F730603': 'h'}; best_identity={'db_v05_r117': 1.0}; genus_name=Cervus; species=9860; count=7307; merged_sample={'13a_F730603': 7307}; family_name=Cervidae; best_match={'db_v05_r117': 'AB245427'}; taxid=9860; species_list={'db_v05_r117': ['Cervus elaphus']}; genus=9859; 
+ctagccttaaacacaaatagttatgcaaacaaaactattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:13:6954:13039#0/1_CONS_SUB_SUB match_count={'db_v05_r117': 4}; species_name=None; family=55153; scientific_name=Marmotini; rank=tribe; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.9494949494949495}; genus_name=None; species=None; count=88; merged_sample={'26a_F040644': 88}; family_name=Sciuridae; best_match={'db_v05_r117': 'AY227529'}; taxid=337730; species_list={'db_v05_r117': ['Xerospermophilus mohavensis', 'Marmota monax', 'Callospermophilus lateralis', 'Marmota himalayana']}; genus=None; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:98:10056:18748#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 2}; species_name=None; family=55153; scientific_name=Marmota; rank=genus; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.9696969696969697}; genus_name=Marmota; species=None; count=16; merged_sample={'26a_F040644': 16}; family_name=Sciuridae; best_match={'db_v05_r117': 'AY227529'}; taxid=9992; species_list={'db_v05_r117': ['Marmota monax', 'Marmota himalayana']}; genus=9992; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagagtactactagcaata
+gcttaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:54:9724:16321#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 10}; species_name=None; family=9608; scientific_name=Canidae; rank=family; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.9595959595959596}; genus_name=None; species=None; count=26; merged_sample={'26a_F040644': 26}; family_name=Canidae; best_match={'db_v05_r117': 'EU442884'}; taxid=9608; species_list={'db_v05_r117': ['Nyctereutes procyonoides', 'Canis lupus', 'Canis latrans', 'Canis aureus', 'Cuon alpinus']}; genus=None; 
+ttagccctaaacatagataattttacaacaaaataattcgccagagtactactagcaaca
+gcctgaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:78:2653:17923#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 2}; species_name=Canis lupus; family=9608; scientific_name=Canis lupus familiaris; rank=subspecies; obiclean_status={'29a_F260619': 's', '26a_F040644': 's'}; best_identity={'db_v05_r117': 0.9595959595959596}; genus_name=Canis; species=9612; count=101; merged_sample={'29a_F260619': 89, '26a_F040644': 12}; family_name=Canidae; best_match={'db_v05_r117': 'AC187326'}; taxid=9615; species_list={'db_v05_r117': ['Canis lupus']}; genus=9611; 
+ttagccctaaacataagctattccataacaaaataattcgccagagaactactagcaaca
+gattaaacctcaaaggacttggcagtgctttatacccct
+>HELIUM_000100422_612GNAAXX:7:45:2528:20273#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 1}; species_name=Ammospermophilus harrisii; family=55153; scientific_name=Ammospermophilus harrisii; rank=species; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.95}; genus_name=Ammospermophilus; species=45487; count=12; merged_sample={'26a_F040644': 12}; family_name=Sciuridae; best_match={'db_v05_r117': 'AY227527'}; taxid=45487; species_list={'db_v05_r117': ['Ammospermophilus harrisii']}; genus=45485; 
+ttagccctaaacataaacagtcaataaacaaggatgttcgccagagtactactagcaatg
+gcctaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:52:18333:13881#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 1}; species_name=Cervus elaphus; family=9850; scientific_name=Cervus elaphus; rank=species; obiclean_status={'13a_F730603': 's'}; best_identity={'db_v05_r117': 0.9801980198019802}; genus_name=Cervus; species=9860; count=21; merged_sample={'13a_F730603': 21}; family_name=Cervidae; best_match={'db_v05_r117': 'AB245427'}; taxid=9860; species_list={'db_v05_r117': ['Cervus elaphus']}; genus=9859; 
+ctagccttaaacacaaatagttatgcaaacaaaactattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:78:15278:3285#0/1_CONS_SUB_SUB match_count={'db_v05_r117': 1}; species_name=None; family=9608; scientific_name=Canis; rank=genus; obiclean_status={'29a_F260619': 's', '15a_F730814': 's', '26a_F040644': 's', '13a_F730603': 's'}; best_identity={'db_v05_r117': 1.0}; genus_name=Canis; species=None; count=372; merged_sample={'29a_F260619': 1, '15a_F730814': 5, '26a_F040644': 352, '13a_F730603': 14}; family_name=Canidae; best_match={'db_v05_r117': 'AB048590'}; taxid=9611; species_list={'db_v05_r117': []}; genus=9611; 
+ttagccctaaacatagataattttacaacaaaataattcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:14:17532:5546#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 4}; species_name=Canis lupus; family=9608; scientific_name=Canis lupus familiaris; rank=subspecies; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.9696969696969697}; genus_name=Canis; species=9612; count=13; merged_sample={'26a_F040644': 13}; family_name=Canidae; best_match={'db_v05_r117': 'AB048585'}; taxid=9615; species_list={'db_v05_r117': ['Canis lupus']}; genus=9611; 
+ttagccctaaacataaatcagtctataacaaaataattcgccagagaactactagcaaca
+gcttaaaactcaaaggacgtggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:111:11186:2142#0/1_CONS_SUB_SUB match_count={'db_v05_r117': 67}; species_name=None; family=9604; scientific_name=Hominidae; rank=family; obiclean_status={'29a_F260619': 's', '13a_F730603': 's'}; best_identity={'db_v05_r117': 0.99}; genus_name=None; species=None; count=16; merged_sample={'29a_F260619': 15, '13a_F730603': 1}; family_name=Hominidae; best_match={'db_v05_r117': 'AY189646'}; taxid=9604; species_list={'db_v05_r117': ['Pongo abelii', 'Homo sapiens', 'Pan troglodytes']}; genus=None; 
+ttagccctaaacctcaacagttaaatcaacaaaactgctcgccagaacactacgagccac
+agcttaaaactcaaaggacctggcggtgcttcatatccct
+>HELIUM_000100422_612GNAAXX:7:95:12207:16717#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 2}; species_name=None; family=9608; scientific_name=Canis; rank=genus; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.98989898989899}; genus_name=Canis; species=None; count=71; merged_sample={'26a_F040644': 71}; family_name=Canidae; best_match={'db_v05_r117': 'AB048590'}; taxid=9611; species_list={'db_v05_r117': ['Canis lupus']}; genus=9611; 
+ttagccctaaacatagataattttacaacaaaataattcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:10:6016:12365#0/1_CONS_SUB_SUB match_count={'db_v05_r117': 2}; species_name=None; family=9608; scientific_name=Canis; rank=genus; obiclean_status={'15a_F730814': 's', '13a_F730603': 's'}; best_identity={'db_v05_r117': 0.98989898989899}; genus_name=Canis; species=None; count=13; merged_sample={'15a_F730814': 4, '13a_F730603': 9}; family_name=Canidae; best_match={'db_v05_r117': 'DQ480510'}; taxid=9611; species_list={'db_v05_r117': ['Canis lupus', 'Canis latrans']}; genus=9611; 
+ttagccctaaacatagataattttacaacaaaataattcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:55:3707:4158#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 2}; species_name=None; family=55153; scientific_name=Marmota; rank=genus; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.9595959595959596}; genus_name=Marmota; species=None; count=45; merged_sample={'26a_F040644': 45}; family_name=Sciuridae; best_match={'db_v05_r117': 'AY227529'}; taxid=9992; species_list={'db_v05_r117': ['Marmota monax', 'Marmota himalayana']}; genus=9992; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagaggactactagcaata
+gcttaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:46:19314:17760#0/1_CONS_SUB_SUB match_count={'db_v05_r117': 1}; species_name=Capreolus capreolus; family=9850; scientific_name=Capreolus capreolus; rank=species; obiclean_status={'29a_F260619': 's'}; best_identity={'db_v05_r117': 0.96}; genus_name=Capreolus; species=9858; count=38; merged_sample={'29a_F260619': 38}; family_name=Cervidae; best_match={'db_v05_r117': 'AJ885202'}; taxid=9858; species_list={'db_v05_r117': ['Capreolus capreolus']}; genus=9857; 
+ttagccctaaacacaagtaattaatataacaaaattgttcaccagagtactagcggcaac
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:81:16334:4645#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 55}; species_name=None; family=None; scientific_name=Pecora; rank=infraorder; obiclean_status={'29a_F260619': 's'}; best_identity={'db_v05_r117': 0.9405940594059405}; genus_name=None; species=None; count=12; merged_sample={'29a_F260619': 12}; family_name=None; best_match={'db_v05_r117': 'AJ885202'}; taxid=35500; species_list={'db_v05_r117': []}; genus=None; 
+ttagccctaaacataagctattccataacaaaattattcgccagagtactaccggcaata
+gcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:66:13553:6137#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 1}; species_name=Cervus elaphus; family=9850; scientific_name=Cervus elaphus; rank=species; obiclean_status={'13a_F730603': 's'}; best_identity={'db_v05_r117': 0.95}; genus_name=Cervus; species=9860; count=17; merged_sample={'13a_F730603': 17}; family_name=Cervidae; best_match={'db_v05_r117': 'AB245427'}; taxid=9860; species_list={'db_v05_r117': ['Cervus elaphus']}; genus=9859; 
+ctagccttaaacacaaatagttatgcaaacaaaactattcgccagagtactaccggcaac
+agcccaaaactcaaaggacttggcggtgcttcacaccctt
+>HELIUM_000100422_612GNAAXX:7:103:5003:2451#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 3}; species_name=None; family=55153; scientific_name=Marmotini; rank=tribe; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.9595959595959596}; genus_name=None; species=None; count=22; merged_sample={'26a_F040644': 22}; family_name=Sciuridae; best_match={'db_v05_r117': 'AY227529'}; taxid=337730; species_list={'db_v05_r117': ['Marmota monax', 'Callospermophilus lateralis', 'Marmota himalayana']}; genus=None; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagagtactactagcaata
+gcttaaaactcaaaggacttggcggtgctttatatccct
+>HELIUM_000100422_612GNAAXX:7:30:17580:1988#0/1_CONS_SUB_SUB match_count={'db_v05_r117': 1}; species_name=None; family=9895; scientific_name=Rupicapra; rank=genus; obiclean_status={'13a_F730603': 's'}; best_identity={'db_v05_r117': 1.0}; genus_name=Rupicapra; species=None; count=16; merged_sample={'13a_F730603': 16}; family_name=Bovidae; best_match={'db_v05_r117': 'AM158314'}; taxid=34868; species_list={'db_v05_r117': []}; genus=34868; 
+ttagccctaaacacaaataattatataaacaaaattattcgccagagtactaccggcaac
+agcccaaaactcaaaggacttggcggtgcttcacaccctt
+>HELIUM_000100422_612GNAAXX:7:71:9435:20170#0/1_CONS_SUB_SUB match_count={'db_v05_r117': 8}; species_name=None; family=9608; scientific_name=Canidae; rank=family; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.9696969696969697}; genus_name=None; species=None; count=10; merged_sample={'26a_F040644': 10}; family_name=Canidae; best_match={'db_v05_r117': 'EU442884'}; taxid=9608; species_list={'db_v05_r117': ['Nyctereutes procyonoides', 'Canis lupus', 'Canis latrans', 'Canis aureus']}; genus=None; 
+ttagccctaaacatagataattttacaacaaaataattcgccagaggactactagcaaca
+gcctgaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:20:19056:14068#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 3}; species_name=None; family=9850; scientific_name=Odocoileinae; rank=subfamily; obiclean_status={'29a_F260619': 's'}; best_identity={'db_v05_r117': 0.9702970297029703}; genus_name=None; species=None; count=19; merged_sample={'29a_F260619': 19}; family_name=Cervidae; best_match={'db_v05_r117': 'AJ972679'}; taxid=9881; species_list={'db_v05_r117': ['Capreolus capreolus', 'Alces alces']}; genus=None; 
+ttagccctaaacacaaataattacacaaacaaaattattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgctttataccctt
+>HELIUM_000100422_612GNAAXX:7:22:6019:11240#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 3}; species_name=None; family=55153; scientific_name=Marmotini; rank=tribe; obiclean_status={'26a_F040644': 's'}; best_identity={'db_v05_r117': 0.9696969696969697}; genus_name=None; species=None; count=10; merged_sample={'26a_F040644': 10}; family_name=Sciuridae; best_match={'db_v05_r117': 'AY227527'}; taxid=337730; species_list={'db_v05_r117': ['Marmota monax', 'Ammospermophilus harrisii', 'Marmota himalayana']}; genus=None; 
+ttagccctaaacataaacattcaataaacaagaatgttcgccagagtactactagcaatg
+gcctaaaactcaaaggacttggcggtgctttacatccct
+>HELIUM_000100422_612GNAAXX:7:34:14050:19312#0/1_CONS_SUB_SUB_CMP match_count={'db_v05_r117': 1}; species_name=Cervus elaphus; family=9850; scientific_name=Cervus elaphus; rank=species; obiclean_status={'13a_F730603': 's'}; best_identity={'db_v05_r117': 0.98}; genus_name=Cervus; species=9860; count=16; merged_sample={'13a_F730603': 16}; family_name=Cervidae; best_match={'db_v05_r117': 'AB245427'}; taxid=9860; species_list={'db_v05_r117': ['Cervus elaphus']}; genus=9859; 
+ctagccttaaacacaaatagttatgcaaacaaaactattcgccagagtactaccggcaat
+agcttaaaactcaaaggacttggcggtgcttcacaccctt
