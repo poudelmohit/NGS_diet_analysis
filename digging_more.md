@@ -1,7 +1,7 @@
 # Here I am exploring more about the data itself:
 
 
-## Is the unique_barcodes still present in the tutorial data?
+## Is the unique_barcodes present in the tutorial data?
     
     grep -i 'aattaac' wolf_F.fastq | wc -l     
     grep -i 'aattaac' wolf_R.fastq | wc -l
@@ -18,9 +18,16 @@
 
 ## Also, checking if there is 'marker sequences' or not:
     grep -i -E 'TTAGATACCCCACTATGC' wolf_F.fastq | wc -l # 21687 reads matched
-    grep -i -E 'TTAGATACCCCACTATGC.*TAGAACAGGCTCCTCTAG' wolf_F.fastq | wc -l # no match
+    grep -i -E 'TTAGATACCCCACTATGC.*TAGAACAGGCTCCTCTAG' wolf_F.fastq
+    
+    grep -i -E 'TAGAACAGGCTCCTCTAG' wolf_F.fastq | wc -l # 21553 match
+    grep -n --color=always -i -E 'TAGAACAGGCTCCTCTAG' wolf_F.fastq
 
     head -n 4 wolf_F.fastq
+
+
+# Checking the format after ngsfilter step:
+head -n 4 data/wolf.ali.assigned.fastq
 
     
 
