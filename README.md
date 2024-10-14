@@ -91,3 +91,5 @@ Ensure you have the following software installed:
 ## References
 - [OBITools Documentation](https://pythonhosted.org/OBITools/)
 - [Conda Documentation](https://docs.conda.io/projects/conda/en/latest/)
+- [*ecoPrimers*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3241669/)
+- [Shehzad et. al, 2012](https://pubmed.ncbi.nlm.nih.gov/22250784/)
