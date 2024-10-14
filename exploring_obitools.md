@@ -30,6 +30,7 @@
     wget https://pythonhosted.org/OBITools/_downloads/wolf_tutorial.zip
     
 ## Exploring data:
+
     cd wolf_tutorial && ls
    
     wolf_F.fastq: the fastq files containing forward fastq reads from 4 fecal samples.
