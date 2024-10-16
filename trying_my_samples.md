@@ -87,13 +87,15 @@
     mkdir ../intermediate_results
     illuminapairedend --score-min=30 -r reverse_reads.fastq forward_reads.fastq > ../intermediate_results/merged.fastq
 
-head -n 8 reverse_reads.fastq
+# Chekng the merged files:
 
-grep -E '^@' reverse_reads.fastq | wc -l
-# gives: 182959
+    head -n 8 reverse_reads.fastq
 
-grep -E '^+' reverse_reads.fastq | wc -l
-# gives 716116
+    grep -E '^@' reverse_reads.fastq | wc -l
+    # gives: 182959
 
-cat reverse_reads.fastq | wc -l
-# also gives 716116
+    grep -E '^+' reverse_reads.fastq | wc -l
+    # gives 716116
+
+    cat reverse_reads.fastq | wc -l
+    # also gives 716116
