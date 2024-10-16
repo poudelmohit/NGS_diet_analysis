@@ -164,3 +164,5 @@
     obitab -o ../wolf_cleaned_*_sorted.fasta > ../../results/wolf_diets.tab
     cd ../../results && ls
     
+
+    
