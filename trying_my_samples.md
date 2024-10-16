@@ -87,6 +87,22 @@
     mkdir ../intermediate_results
     illuminapairedend --score-min=30 -r reverse_reads.fastq forward_reads.fastq > ../intermediate_results/merged.fastq
 
+# The error looks like:
+
+                File "/home/mp067823/anaconda3/envs/obi/bin/illuminapairedend", line 257, in <module>
+                for ali in ba:
+            File "/home/mp067823/anaconda3/envs/obi/bin/illuminapairedend", line 162, in alignmentIterator
+                ali = buildAlignment(d,r)
+            File "/home/mp067823/anaconda3/envs/obi/bin/illuminapairedend", line 145, in buildAlignment
+                la.seqB=reverse 
+            File "src/obitools/align/_qsassemble.pyx", line 87, in obitools.align._qsassemble.QSolexaReverseAssemble.seqB.__set__
+            File "src/obitools/align/_dynamic.pyx", line 88, in obitools.align._dynamic.allocateSequence
+            File "src/obitools/_obitools.pyx", line 259, in obitools._obitools.BioSequence.__str__
+            File "src/obitools/_obitools.pyx", line 696, in obitools._obitools.DNAComplementSequence.getStr
+            File "src/obitools/_obitools.pyx", line 699, in genexpr
+            File "src/obitools/_obitools.pyx", line 705, in obitools._obitools.DNAComplementSequence.getSymbolAt
+            KeyError: '+'
+
 # Chekng the merged files:
 
     head -n 8 reverse_reads.fastq
