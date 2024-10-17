@@ -17,6 +17,8 @@
 
     grep -i -E 'CCATCCAACATCTCAGCATGATGAAA' my_data/raw_reads/15_11_S11_R1_001.fastq | wc -l # Forward primer is present in 246 reads here
     
+    grep -i -E 'TCTCAGCATGATGAAA' my_data/raw_reads/15_11_S11_R1_001.fastq  # Forward primer is present in 246 reads here
+
     ## Here I am confused because only 246 reads have primer out of 6k total reads for this sample.
 
     
@@ -103,7 +105,8 @@
             File "src/obitools/_obitools.pyx", line 705, in obitools._obitools.DNAComplementSequence.getSymbolAt
             KeyError: '+'
 
-# Chekng the merged files:
+# Cheking the merged files:
+
 
     head -n 8 reverse_reads.fastq
 
@@ -115,3 +118,79 @@
 
     cat reverse_reads.fastq | wc -l
     # also gives 716116
+
+# ############
+head -n 4 ../../data/wolf_tutorial/wolf_F.fastq
+head -n 4 forward_reads.fastq
+head -n 4 reverse_reads.fastq
+
+cat forward_reads.fastq | wc -l
+cat reverse_reads.fastq | wc -l
+
+head -n 4 ../../data/wolf.fastq
+
+cat ../../data/wolf_tutorial/wolf_F.fastq | wc -l
+cat ../../data/wolf_tutorial/wolf_R.fastq | wc -l
+
+## trying by replacing space and + in the headers:
+grep "^@" forward_reads.fastq | wc -l
+cat forward_reads.fastq | wc -l
+
+
+sed 's/ /_/g' forward_reads.fastq > edited_forward_reads.fastq
+sed 's/ /_/g' reverse_reads.fastq > edited_reverse_reads.fastq
+
+head -n 4 edited_forward_reads.fastq
+head -n 4 edited_reverse_reads.fastq
+illuminapairedend --score-min=20 -r edited_reverse_reads.fastq edited_forward_reads.fastq > ../intermediate_results/edited_merged.fastq
+illuminapairedend --score-min=20 -r reverse_reads.fastq forward_reads.fastq > ../intermediate_results/merged.fastq
+
+head -n 4 ../../data/wolf_tutorial/wolf_F.fastq
+
+head -n 4 edited_*.fastq
+head -n 4 forward_reads.fastq
+
+awk 'NR>=303 && NR<=310' forward_reads.fastq
+awk 'NR>=303 && NR<=310' edited_forward_reads.fastq
+awk 'NR>=303 && NR<=310' edited_reverse_reads.fastq
+
+
+
+# Trying with 2 other samples first:
+cd ../temp && ls
+
+# trying 15_61_S61_R1_001.fastq and 15_61_S61_R2_001.fastq
+    illuminapairedend --score-min=20 -r 15_61_S61_R2_001.fastq 15_61_S61_R1_001.fastq > merged_15_61_S62.fastq
+
+    ### trying by removing space in header:
+    sed -E '/^@/{s/(^@[^ ]*) .*/\1/}' 15_61_S61_R2_001.fastq > edited_15_61_S61_R2_001.fastq
+    sed -E '/^@/{s/(^@[^ ]*) .*/\1/}' 15_61_S61_R1_001.fastq > edited_15_61_S61_R1_001.fastq
+    illuminapairedend --score-min=20 -r edited_15_61_S61_R2_001.fastq edited_15_61_S61_R1_001.fastq > merged_edited_15_61_S62.fastq
+
+
+# trying 180_80_S80_R2_001.fastq and 180_80_S80_R1_001.fastq
+
+illuminapairedend --score-min=20 -r 180_80_S80_R2_001.fastq 180_80_S80_R1_001.fastq > merged_180_80_S80.fastq
+cat merged_180_80_S80.fastq
+
+    ### trying by removing space in header:
+        sed -E '/^@/{s/(^@[^ ]*) .*/\1/}' 180_80_S80_R2_001.fastq > edited_180_80_S80_R2_001.fastq
+        sed -E '/^@/{s/(^@[^ ]*) .*/\1/}' 180_80_S80_R1_001.fastq > edited_180_80_S80_R1_001.fastq
+        illuminapairedend --score-min=20 -r edited_180_80_S80_R2_001.fastq edited_180_80_S80_R1_001.fastq > merged_edited_180_80_S80.fastq
+
+head -n 4 180_80_S80_R2_001.fastq
+
+# trying to merge using PEAR tool:
+conda deactivate
+conda install bioconda::pear -y
+pear -f 180_80_S80_R1_001.fastq -r 180_80_S80_R2_001.fastq -o pear_180_80_S80
+
+## trying ngsfilter in the pear asssembled file:
+head -n 4 pear_*0.assembled.fastq
+conda activate obi
+
+ls 
+ngsfilter -t ../tags_list.txt -u ../unidentified.fastq pear_180_80_S80.assembled.fastq > ali.assigned.fastq
+
+
+# 
